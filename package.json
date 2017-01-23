@@ -1,0 +1,31 @@
+{
+  "name": "class-demo-server",
+  "version": "1.0.0",
+  "description": "A simple server for demoing client-server interaction.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "1.16.0",
+    "cors": "2.8.1",
+    "express": "4.14.0",
+    "lodash": "3.4.0",
+    "morgan": "1.7.0",
+    "seed-random": "2.2.0"
+  },
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "enginesStrict": true,
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.2.0",
+    "supertest": "2.0.1",
+    "supertest-as-promised": "4.0.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha *.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
